@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>music-cover-art</AssemblyName>
+    <RootNamespace>MusicCoverArt</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../packages/dotnet/nuget-music/src/Italbytz.Music.ITunes.Client/Italbytz.Music.ITunes.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="MusicCoverArt.Tests/**/*.cs" />
+    <EmbeddedResource Remove="MusicCoverArt.Tests/**/*.resx" />
+    <None Remove="MusicCoverArt.Tests/**/*.csproj" />
+  </ItemGroup>
+
+</Project>
