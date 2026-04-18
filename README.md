@@ -1,7 +1,7 @@
 # csharp-console-music-cover-art
 
-Minimaler CLI-Consumer fuer die iTunes Search API mit Bezug auf die lokale Paketgrenze
-zwischen `nuget-music` und `nuget-foundation`.
+Minimaler CLI-Consumer fuer die iTunes Search API mit Bezug auf die veroeffentlichten
+Pakete aus `nuget-music` und `nuget-foundation`.
 
 Aktuell implementiert:
 
@@ -9,7 +9,7 @@ Aktuell implementiert:
 - Ausgabe der Treffer im Terminal
 - optionaler Download des Covers des ersten Treffers
 - optionaler Download eines beliebigen Treffers per Index
-- iTunes-Integration ausgelagert in das lokale Paket `Italbytz.Music.ITunes.Client` aus `nuget-music`
+- iTunes-Integration ausgelagert in das NuGet-Paket `Italbytz.Music.ITunes.Client` `1.0.2`
 
 Beispiel:
 

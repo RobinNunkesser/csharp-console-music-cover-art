@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../../packages/dotnet/nuget-music/src/Italbytz.Music.ITunes.Client/Italbytz.Music.ITunes.Client.csproj" />
+    <PackageReference Include="Italbytz.Music.ITunes.Client" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
